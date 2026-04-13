@@ -1,0 +1,80 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background: linear-gradient(180deg, #f8fbff 0%, #eef3ff 100%);
+  min-height: 100vh;
+  color: #1f2937;
+}
+
+.page-shell {
+  min-height: calc(100vh - 72px);
+}
+
+.min-vh-75 {
+  min-height: calc(100vh - 180px);
+}
+
+.auth-card,
+.content-card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+.table thead th {
+  background: #0d6efd;
+  color: #ffffff;
+  border: none;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+}
+
+.btn {
+  border-radius: 12px;
+}
+
+.employee-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb;
+}
+
+.profile-preview {
+  width: 110px;
+  height: 110px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 1px solid #ced4da;
+}
+
+.detail-photo {
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.badge-soft {
+  background: #e9f2ff;
+  color: #0d6efd;
+  border-radius: 999px;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
